@@ -1,0 +1,55 @@
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+
+* {
+  background: #e9ecef;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+.container {
+  width: 400px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #e9ecef;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #b6b8ba;
+}
+
+.btn-largo {
+  width: 150px;
+}
+
+.tela-input {
+  margin: 30px;
+}
+
+header,
+main,
+footer {
+  padding: 20px;
+}
+
+header,
+header h1,
+main,
+main section ul,
+main section ul li,
+main section ul li button,
+footer,
+footer h2,
+footer ul,
+footer ul li,
+footer ul li a,
+footer ul li a img {
+  background: #dee2e6;
+}
