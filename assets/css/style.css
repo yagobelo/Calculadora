@@ -26,11 +26,7 @@
 }
 
 .btn-largo {
-  width: 150px;
-}
-
-.tela-input {
-  margin: 30px;
+  width: 165px;
 }
 
 header,
@@ -42,6 +38,7 @@ footer {
 header,
 header h1,
 main,
+main section,
 main section ul,
 main section ul li,
 main section ul li button,
