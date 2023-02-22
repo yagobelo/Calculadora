@@ -32,7 +32,7 @@ main section ul li {
   list-style: none;
 }
 
-main section .btn-comprido li {
+main section .coluna li {
   display: flex;
   flex-direction: column;
 }
@@ -44,8 +44,8 @@ main section ul li button {
   margin: 13px;
 }
 
-main section .btn-comprido li button {
-  line-height: 535%;
+main section .coluna li button {
+  line-height: 115%;
 }
 
 main button {

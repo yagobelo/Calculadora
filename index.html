@@ -16,44 +16,45 @@
   </header>
   <main class="container">
     <section>
-      <p class="telinha"></p>
+      <p id="resultado"></p>
     </section>
     <section>
       <ul>
         <li>
-          <button>C</button>
-          <button>/</button>
-          <button>*</button>
+          <button onclick="clean()">C</button>
+          <button onclick="insert('/')">/</button>
+          <button onclick="insert('*')">*</button>
         </li>
         <li>
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
+          <button onclick="insert('7')">7</button>
+          <button onclick="insert('8')">8</button>
+          <button onclick="insert('9')">9</button>
         </li>
         <li>
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
+          <button onclick="insert('4')">4</button>
+          <button onclick="insert('5')">5</button>
+          <button onclick="insert('6')">6</button>
         </li>
         <li>
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
+          <button onclick="insert('1')">1</button>
+          <button onclick="insert('2')">2</button>
+          <button onclick="insert('3')">3</button>
         </li>
       </ul>
-      <ul class="btn-comprido">
+      <ul class="coluna">
         <li>
-          <button>-</button>
-          <button>+</button>
+          <button onclick="back()">DEL</button>
+          <button onclick="insert('-')">-</button>
+          <button class="btn-comprido" onclick="insert('+')">+</button>
         </li>
     </section>
     <section>
       </ul>
       <ul>
         <li>
-          <button>0</button>
-          <button>.</button>
-          <button class="btn-largo">Enter</button>
+          <button onclick="insert('0')">0</button>
+          <button onclick="insert('.')">.</button>
+          <button class="btn-largo" onclick="calcular()">=</button>
         </li>
       </ul>
     </section>
@@ -74,5 +75,7 @@
     <h2>Created By: Yago Belo</h2>
   </footer>
 </body>
+
+<script src="./funcoes.js"></script>
 
 </html>

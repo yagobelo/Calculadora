@@ -29,6 +29,10 @@
   width: 165px;
 }
 
+.btn-comprido {
+  height: 135px;
+}
+
 header,
 main,
 footer {
